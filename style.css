@@ -2,6 +2,8 @@
     --color-accent: #5eead4;
     --background-accent: rgba(45, 212, 191, .1);
     --color-highlight: #e2e8f0;
+    --para-color:#94a3b8;
+    --heading-color:#e2e8f0;
 
 }
 html{ 
@@ -16,7 +18,7 @@ html{
 
 body {
     background: #0f172a;
-    color: #94a3b8;
+    color: var(--para-color);
     padding: 4rem 2rem;
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -25,4 +27,26 @@ body {
 
 p {
     line-height: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--heading-color);
+    letter-spacing: 2px;
+}
+
+.hero-subtitle{
+    font-size: 1.15rem;
+    font-weight: 400;
+    color: var(--heading-color);
+    margin: 12px 0 0 0;
+}
+
+li{
+    list-style: none;
 }
