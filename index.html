@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" media="all">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -32,9 +32,9 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about" id="go-top">About</a></li>
+                <li><a href="#experience" id="go-top">Experience</a></li>
+                <li><a href="#projects" id="go-top">Projects</a></li>
             </ul>
         </nav>
         <div class="social-icons">
@@ -51,7 +51,7 @@
         <!-- about -->
         <div class="about-section">
             <div class="main-title-div">
-                <h3>About</h3>
+                <h3 id="about"><a href="#go-top">About</a></h3>
             </div>
             <div class="about-para">
                 <p>I’m a developer passionate about crafting accessible, pixel-perfect user interfaces that blend
@@ -90,7 +90,7 @@
 
             <!-- experience -->
             <div class="main-title-div">
-                <h3>Experience</h3>
+                <h3 id="experience"><a href="#go-top">Experience</a></h3>
             </div>
             <!-- timeline -->
             <div class="time-tag">
@@ -110,12 +110,21 @@
                         managers, to implement and advocate for best practices in web accessibility.</p>
                 </div>
                 <!-- language tags -->
-                <div class="exp-det-langs">
-                    <span>JavaScript</span>
-                    <span>Typescript</span>
-                    <span>React</span>
-                    <span>Storybook</span>
+                <div class="lang-body">
+                    <div class="exp-det-langs">
+                        JavaScript
+                    </div>
+                    <div class="exp-det-langs">
+                        Typescript
+                    </div>
+                    <div class="exp-det-langs">
+                        React
+                    </div>
+                    <div class="exp-det-langs">
+                        Storybook
+                    </div>
                 </div>
+
             </div>
             <div class="time-tag">
                 <p>2018 - 2024</p>
@@ -137,18 +146,41 @@
                         spearheading the development of internal tools.</p>
                 </div>
                 <!-- language tags -->
-                <div class="exp-det-langs">
-                    <span>JavaScript</span>
-                    <span>Typescript</span>
-                    <span>HTML & SCSS</span>
-                    <span>React</span>
-                    <span>Next.js</span>
-                    <span>React Native</span>
-                    <span>Wordpress</span>
-                    <span>Contentful</span>
-                    <span>Node.js</span>
-                    <span>PHP</span>
+                <div class="lang-body">
+                    <div class="exp-det-langs">
+                        JavaScript
+                    </div>
+                    <div class="exp-det-langs">
+                        Typescript
+                    </div>
+                    <div class="exp-det-langs">
+                        HTML & SCSS
+                    </div>
+                    <div class="exp-det-langs">
+                        React
+                    </div>
+                    <div class="exp-det-langs">
+                        Next.js
+                    </div>
+                    <div class="exp-det-langs">
+                        React Native
+                    </div>
+                    <div class="exp-det-langs">
+                        Wordpress
+                    </div>
+                    <div class="exp-det-langs">
+                        Contentful
+                    </div>
+                    <div class="exp-det-langs">
+                        Node.js
+                    </div>
+                    <div class="exp-det-langs">
+                        PHP
+                    </div>
+
+
                 </div>
+
             </div>
             <div class="time-tag">
                 <p>July — Dec 2017</p>
@@ -166,12 +198,19 @@
                     </p>
                 </div>
                 <!-- language tags -->
-                <div class="exp-det-langs">
-                    <span>Ember</span>
-                    <span>SCSS</span>
-                    <span>JavaScript</span>
-                    <span>MusicKit.js</span>
-
+                <div class="lang-body">
+                    <div class="exp-det-langs">
+                        Ember
+                    </div>
+                    <div class="exp-det-langs">
+                        SCSS
+                    </div>
+                    <div class="exp-det-langs">
+                        JavaScript
+                    </div>
+                    <div class="exp-det-langs">
+                        MusicKit.js
+                    </div>
                 </div>
             </div>
 
@@ -184,7 +223,7 @@
                         <h3>Developer · Scout Studio</h3>
                     </a><span>
                         <div> <i class="fa-solid fa-arrow-right"></i></div>
-                   
+
                 </div>
                 <div class="exp-det-subtitle">
                     <p>Collaborated with other student designers and engineers on pro-bono projects to create new
@@ -193,13 +232,21 @@
                     </p>
                 </div>
                 <!-- language tags -->
-                <div class="exp-det-langs">
-                    <span>Jekyll</span>
-                    <span>SCSS</span>
-                    <span>JavaScript</span>
-                    <span>WordPress</span>
-
+                <div class="lang-body">
+                    <div class="exp-det-langs">
+                        Jekyll
+                    </div>
+                    <div class="exp-det-langs">
+                        SCSS
+                    </div>
+                    <div class="exp-det-langs">
+                        JavaScript
+                    </div>
+                    <div class="exp-det-langs">
+                        WordPress
+                    </div>
                 </div>
+
             </div>
             <div class="time-tag">
                 <p>July — Dec 2016</p>
@@ -210,7 +257,7 @@
                         <h3>Software Engineer Co-op · Starry</h3>
                     </a><span>
                         <div> <i class="fa-solid fa-arrow-right"></i></div>
-                    
+
                 </div>
                 <div class="exp-det-subtitle">
                     <p>Worked with the UI team to engineer and improve major features of Starry’s customer-facing
@@ -219,13 +266,21 @@
                     </p>
                 </div>
                 <!-- language tags -->
-                <div class="exp-det-langs">
-                    <span>Cordova</span>
-                    <span>Backbone</span>
-                    <span>JavaScript</span>
-                    <span>CSS</span>
-
+                <div class="lang-body">
+                    <div class="exp-det-langs">
+                        Cordova
+                    </div>
+                    <div class="exp-det-langs">
+                        Backbone
+                    </div>
+                    <div class="exp-det-langs">
+                        JavaScript
+                    </div>
+                    <div class="exp-det-langs">
+                        CSS
+                    </div>
                 </div>
+
             </div>
             <div class="time-tag">
                 <p>July — Dec 2015</p>
@@ -238,7 +293,7 @@
                         </h3>
                     </a><span>
                         <div> <i class="fa-solid fa-arrow-right"></i></div>
-                    
+
                 </div>
                 <div class="exp-det-subtitle">
                     <p>Developed, maintained, and shipped production code for client websites. Clients included JetBlue,
@@ -246,65 +301,88 @@
                     </p>
                 </div>
                 <!-- language tags -->
-                <div class="exp-det-langs">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                    <span>jQuery</span>
-
+                <div class="lang-body">
+                    <div class="exp-det-langs">
+                        HTML
+                    </div>
+                    <div class="exp-det-langs">
+                        CSS
+                    </div>
+                    <div class="exp-det-langs">
+                        JavaScript
+                    </div>
+                    <div class="exp-det-langs">
+                        jQuery
+                    </div>
                 </div>
             </div>
         </div>
         <!-- full resume -->
-        <h2>View Full Resume </h2> <span>
-            <div> <i class="fa-solid fa-arrow-right"></i></div>
+        <div class="full-resume">
+            <span>
+                <h2><a href="https://www.youtube.com" target="_blank">View Full Resume</a> </h2>
+                <div> <i class="fa-solid fa-arrow-right"></i></div>
+            </span>
+        </div>
         <!-- add link element -->
         <!-- projects -->
         <div class="main-title-div">
-            <h3>Projects</h3>
+            <h3 id="projects"><a href="#go-top">Projects</a></h3>
         </div>
         <div class="project-section">
             <div class="project-body">
                 <div class="project-img">
-                    <img src="/public/course-card.webp" alt="project image"><!--  add image -->
+                    <img src="/public/course-card.webp" alt="project image" loading="lazy"><!--  add image -->
                 </div>
                 <div class="project-title">
                     <h3>Build a Spotify Connected App</h3>
                 </div>
                 <div class="project-subtitle">
-                    <p>Video course that teaches how to build a web app with the Spotify Web API. Topics covered include
+                    <p>Video course that teaches how to build a web app with the Spotify Web API. Topics covered
+                        include
                         the
-                        principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.</p>
+                        principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.
+                    </p>
                 </div>
             </div>
 
             <div class="project-body">
                 <div class="project-img">
-                    <img src="/public/spotify-profile.webp" alt="project image"><!--  add image -->
+                    <img src="/public/spotify-profile.webp" alt="project image" loading="lazy"><!--  add image -->
                 </div>
                 <div class="project-title">
                     <h3>Spotify Profile</h3>
                 </div>
                 <div class="project-subtitle">
-                    <p>Web app for visualizing personalized Spotify data. View your top artists, top tracks, recently
-                        played tracks, and detailed audio information about each track. Create and save new playlists of
+                    <p>Web app for visualizing personalized Spotify data. View your top artists, top tracks,
+                        recently
+                        played tracks, and detailed audio information about each track. Create and save new
+                        playlists of
                         recommended tracks based on your existing playlists and more..</p>
                 </div>
                 <div class="icon">
                     <span> <i class="fas fa-star"></i></span>
-                    <p>672</p></span>
+                    <p>672</p>
+                    </span>
                 </div>
-                <div class="exp-det-langs">
-                    <span>React</span>
-                    <span>Express</span>
-                    <span>Spotify API</span>
-                    <span>Heroku</span>
-
+                <div class="lang-body">
+                    <div class="exp-det-langs">
+                        React
+                    </div>
+                    <div class="exp-det-langs">
+                        Express
+                    </div>
+                    <div class="exp-det-langs">
+                        Spotify API
+                    </div>
+                    <div class="exp-det-langs">
+                        Heroku
+                    </div>
                 </div>
             </div>
             <div class="project-body">
                 <div class="project-img">
-                    <img src="/public/halcyon.webp" alt="project image"><!--  add image -->
+                    <img src="/public/halcyon.webp" alt="project image" loading="lazy"><!--  add image -->
                 </div>
                 <div class="project-title">
                     <h3>Halcyon Theme</h3>
@@ -319,7 +397,7 @@
             </div>
             <div class="project-body">
                 <div class="project-img">
-                    <img src="/public/v4.webp" alt="project image"><!--  add image -->
+                    <img src="/public/v4.webp" alt="project image" loading="lazy"><!--  add image -->
                 </div>
                 <div class="project-title">
                     <h3>brittanychiang.com (v4)</h3>
@@ -332,10 +410,16 @@
                     <p>7,696</p>
 
                 </div>
-                <div class="exp-det-langs">
-                    <span>Gatsby</span>
-                    <span>Styled Components</span>
-                    <span>Netlify</span>
+                <div class="lang-body">
+                    <div class="exp-det-langs">
+                        Gatsby
+                    </div>
+                    <div class="exp-det-langs">
+                        Styled Components
+                    </div>
+                    <div class="exp-det-langs">
+                        Netlify
+                    </div>
                 </div>
             </div>
 
@@ -345,10 +429,13 @@
 
     </main>
     <footer>
-        <div class="footer">
+        <div class="footer-body">
             <p>
-                Loosely designed in Figma. Coded in Visual Studio Code by yours truly. Built with Next.js and
-                Tailwind CSS, deployed with Vercel. All text is set in the Inter typeface.
+                Loosely designed in <a href="https://www.figma.com/" target="_blank">Figma</a> and Coded in <a
+                    href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> by yours truly.
+                Built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and
+                <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>, deployed with <a href="https://vercel.com/" target="_blank">Vercel</a>. All
+                text is set in the <a href="https://rsms.me/inter/" target="_blank">Inter</a> typeface.
             </p>
         </div>
     </footer>
